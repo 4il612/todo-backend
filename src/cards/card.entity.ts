@@ -27,7 +27,6 @@ export class Card {
   @Column()
   description: string;
 
-  @ApiProperty()
   @CreateDateColumn()
   createdAt: Date;
 }
